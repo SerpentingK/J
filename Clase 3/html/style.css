@@ -1,0 +1,52 @@
+*{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body{
+    background-color: #3a1b07;
+    
+}
+input{
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #644c0f;
+    color: white;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
+#tabla{
+    color: black;
+}
+th,td{
+    padding: 10px;
+}
+#sec{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0076ff;
+    width: 50%;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="submit"]{
+    background-color: #644c0f;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+#numeroDeFrutas{
+    background-color: #644c0f;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+}

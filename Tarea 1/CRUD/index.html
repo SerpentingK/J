@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+        <div class="div-titulo" ">
+            <h1>Listado de Productos</h1>
+        </div>
+    
+
+        <div class="contenedor">
+            <div class="div-formulario">
+                <h2>Ingrese un producto</h2>
+                <form action="" id="formulario">
+                    <input type="text" id="nombre" placeholder="Ingrese el nombre del producto">
+                    <input type="number" id="precio" placeholder="Ingrese el precio">
+                    <input type="number" id="inventario" placeholder="Ingrese un inventario">
+                    <input type="number" id="totaliva" placeholder="Ingrese el valor con iva">
+                    <button type="submit" id="btnAgregar">Agregar producto</button>
+                </form>
+            </div>
+
+
+            <div class="div-listado">
+                <h2>Productos</h2>
+                <div class="div-productos">
+
+                </div>
+            </div>
+
+        </div>
+
+        <table id="tabla"></table>
+    <script src="/js/app.js"></script>
+</body>
+</html>

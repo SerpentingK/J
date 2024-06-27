@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+article{
+    width: 60%;
+    background-color: brown;
+    padding: 30px;
+    border: 2px solid black ;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article h2{
+    font-size: 25px;
+    color: white;
+    margin: 20px;
+}
+article p{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+article p:hover{
+    color: white;
+    transform: scale(1.2);
+    background-color: gray;
+}
+.n{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.numero{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 30px;
+    text-align: center;
+}

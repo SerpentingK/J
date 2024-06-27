@@ -1,0 +1,141 @@
+body {
+    background-color: #ff3082;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.div-titulo {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.div-titulo h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.contenedor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ESTILOS FORMULARIO */
+.contenedor .div-formulario {
+    width: 80%;
+    height: 500px;
+    margin: 15px 15px;
+    background-color: #ff8650;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.contenedor .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: black;
+    font-weight: bolder;
+}
+
+.contenedor .div-formulario form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form button{
+    background-color: #ffe85c;
+    border: 0;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px 50px;
+}
+
+.contenedor .div-formulario form input{
+    width: 50%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+/* ESTILOS LISTADO */
+.contenedor .div-listado {
+    width: 70%;
+    height: 500px;
+    margin: 15px 15px;
+    background-color: #ff8650;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor .div-listado h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: black;
+}
+
+.contenedor .div-listado .div-empleados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.contenedor .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    padding: 5px 15px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-editar {
+    background-color: rgb(82, 170, 82);
+}
+
+.btn-eliminar {
+    background-color: rgb(201, 60, 60);
+}
+.div-productos{
+    width: 90%;
+}
+.tabla-productos{
+    background-color: #ffe85c;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px 10px;
+}

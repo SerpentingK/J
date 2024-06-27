@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Matriz Aleatoria</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Matriz Aleatoria</h1>
+        <div>
+            <label for="filas">Filas:</label>
+            <input type="number" id="filas" min="1" value="4">
+            <label for="columnas">Columnas:</label>
+            <input type="number" id="columnas" min="1" value="4">
+            <button onclick="generarNuevaMatriz()">Generar Nueva Matriz</button>
+        </div>
+        <div id="matrizOutput" class="matriz-container"></div>
+        <p id="resultadoOutput"></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Sunday";
+    src: url(../Next\ Sunday.otf);
+}
+body{
+    background-color: #c2e168;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+label, h2{
+    font-size: 50px;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Sunday";
+}
+input{
+    padding: 10px;
+    border: 0;
+    background-color: #f7d67f;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    transition: .3s ease;
+}
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+h3{
+    font-family: "Sunday";
+    background-color: #00a9df;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    transition: .2s ease;
+}
+h3:hover{
+    transform: scale(1.08);
+    background-color: #c2e168;
+    color: black;
+}
+input:hover{
+    transform: scale(1.2);
+}
+input:focus{
+    outline: 0;
+    transform: scale(1.2);
+    box-shadow: 0px 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+button{
+    border: 0;
+    margin: 20px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    background-color: #00156e;
+    color: white;
+    font-weight: bold;
+    transition: .3s ease;
+}
+button:hover{
+    transform: scale(1.2);
+}
+#resultados{
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#resultados img{
+    border-radius: 20px;
+    transition: .2s ease-out;
+    width: 80%;
+    margin: 10px;
+}
+#resultados img:hover{
+    transform: scale(1.1) translateY(-20px);
+    filter: contrast(150%);
+    border-radius: 0;
+    box-shadow: 0px 0 15px 1px rgba(0, 0, 0, 0.4);
+}

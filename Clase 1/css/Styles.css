@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#output{
+    background-color: brown;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.text{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 5%;
+    text-align: center;
+    transition: all .3s ease;
+}
+.text:hover{
+    transform: scale(120%) translateY(-10px);
+    background-color: gray;
+    color: white;
+}
+#title{
+    width: 80%;
+    margin: auto;
+}
+#title h2{
+    text-align: center;
+    color: white;
+}
+#numbers{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}

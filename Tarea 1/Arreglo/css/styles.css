@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffd700;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+h1 {
+    color: #8a2be2;
+}
+
+.matriz-container {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+    width: auto;
+}
+
+.celda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #ffd700;
+    color: #8a2be2;
+    border: 2px solid #8a2be2;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.celda:hover {
+    background-color: #d4af37;
+    transform: scale(1.05);
+}
+
+.celda:active {
+    transform: scale(0.95);
+}
+
+.destacar-celda {
+    background-color: #6a0572;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    width: 50px;
+    margin: 0 5px;
+    padding: 8px;
+    border: 1px solid #8a2be2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8a2be2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #800080;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+p {
+    color: #6a0572;
+    font-size: 20px;
+    font-weight: bold;
+
+}
